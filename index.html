@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>kalkulator</title>
+</head>
+<body>
+    <div class="kalkulator">
+        <div class="inputt">
+            <input type="text" id="inp">
+        </div>
+
+        <div class="prvi">
+            <button class="broj" onclick="broj(1)" >1</button>
+            <button class="broj" onclick="broj(2)" >2</button>
+            <button class="broj" onclick="broj(3)" >3</button>
+            <button class="operator" onclick="broj('+')" >+</button>
+        </div>
+        <div class="drugi">
+            <button class="broj" onclick="broj(4)" >4</button>
+            <button class="broj" onclick="broj(5)" >5</button>
+            <button class="broj" onclick="broj(6)" >6</button>
+            <button class="operator" onclick="broj('-')" >-</button>
+        </div>
+        <div class="treci">
+            <button class="broj" onclick="broj(7)" >7</button>
+            <button class="broj" onclick="broj(8)" >8</button>
+            <button class="broj" onclick="broj(9)" >9</button>
+            <button class="operator" onclick="broj('*')" >*</button>
+        </div>
+        <div class="cetvrti">
+            <button class="broj" onclick="broj(0)" >0</button>
+            <button class="broj" onclick="cistii()" >C</button>
+            <button class="jednako" onclick="racuna()" >=</button>
+            <button class="operator" onclick="broj('/')">/</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

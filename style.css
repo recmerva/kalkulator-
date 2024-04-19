@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    padding: 0;
+    font-size: 12px;
+}
+
+.kalkulator {
+    width: 200px;
+    height: 150px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.inputt{
+    margin-bottom: 10px;
+}
+
+.prvi, .drugi, .treci, .cetvrti{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width: 45%;
+    background-color: #ccc;
+
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+
+}
+
+.operator {
+    background-color: #87b4ee;
+    border: none;
+    height: 26px;
+    width: 23px;
+    border: 1px solid black;
+    border-radius: 5px;    
+}
+
+.jednako{
+    background-color: #28c181;
+    border: none;
+    height: 26px;
+    width: 23px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
